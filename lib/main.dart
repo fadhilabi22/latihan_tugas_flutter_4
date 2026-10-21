@@ -28,6 +28,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Dashboard Mahasiswa"),
+      ),
       body: Center(
         child: Text("Fadhil Abi Untoro"),
       ),
